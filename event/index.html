@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+.box{
+    height: 100px;
+    width: 250px;
+    border: 1px solid rgb(36, 33, 33);
+    margin: auto;
+    margin: auto;
+    margin-top: 300px;
+}
+.lbox{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+.rbox{
+    height: 100px;
+    width: 150px;
+    background-color: blueviolet;
+    float: left;
+    overflow: hidden;
+}
+.li1{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    line-height: 100px;
+   
+}
+.li2{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    line-height: 100px;
+}
+.li3{
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    line-height: 100px;
+}
+ul{
+    animation: ani1 2s infinite;
+
+}
+@keyframes ani1 {
+        0%{
+            position: relative;
+            bottom: 0px;
+        }
+        50%{
+            position: relative;
+            bottom: 100px;
+        
+        }
+        100%{
+            position: relative;
+            bottom: 200px;
+        }
+        
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div class="lbox">什麼是事件</div>
+        <div class="rbox">
+            <ul>
+                <li class="li1">大揭露</li1>
+                <li class="li2">大逮補</li2>
+                <li class="li3">金融重置</li3>ㄑ
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
